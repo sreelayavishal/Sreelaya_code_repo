@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>
+            reg form
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+           button{
+               text-decoration: crimson;
+                background-color: rgb(25, 119, 7);
+                
+           }
+           
+        </style>
+    </head>
+    <body  >
+       <form class="regform" id="register" methord="post">
+        <table class="reg"  align="center" width=900px>
+                            <tr><td><h1 ><label> REGISTER HERE</label></h1></td></tr>
+                       
+                       
+                     
+                    <tr>
+                        <td><label >First name: </label><br></td>
+                    <td><input type="text" name="fname" id="name" placeholder="Enter your Firstname"></td><br><br>
+                    <td><label >Last name: </label></td><br>
+                    <td><input type="text" name="lname" id="name" placeholder="Enter your Lastname"></td></tr>
+                    <td><br></td>
+                    <tr><td><label >Your Age: </label></td><br>
+                    <td><input type="number" name="age" id="name" placeholder="How old are you"></td><br><br>
+                    <td><label >Date Of Birth: </label></td><br>
+                    <td><input type="date" name="age" id="name"></td>
+                    </tr>
+                    <td><br></td>
+                    <tr><td><label >E-mail: </label></td><br>
+                    <td><input type="email" name="email" id="name" placeholder="Enter your valid email"></td><br><br>
+                    <td><label >Password: </label></td><br>
+                    <td><input type="password" name="pass" id="name" placeholder="Enter your password"></td><br><br>
+                    </tr>
+                    <td><br></td>
+                    <tr><td><label >Gender: </label></td>
+                    <br>
+                    <td><label><span id="female">Female</span></label>
+                    <input type="radio" name="gender" id="female"></td>
+                    <td><label><span id="female">Male</span></label>
+                    <input type="radio" name="gender" id="male"></td>
+                    <td><label><span id="female">Other</span></label>
+                    <input type="radio" name="gender" id="other"></td>
+                    </tr>
+                    
+                    <td><br></td>
+                    <tr>
+                    <td><label >Language Known :</label></td>
+                  
+                    <td><label><input type="checkbox" name="lang" id="hindi" >Hindi</label></td>
+                    <td><label><input type="checkbox" name="lang" id="hindi" >English</label></td>
+                    <tr>
+                        <td> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                           <td> <label> <input type="checkbox" name="lang" id="hindi" >Malayalam</label></td>
+                        <td>
+                             <label ><input type="checkbox" name="lang" id="hindi" >Spanish</label></td>
+                    </tr>
+                    <tr><td><label> Nationality:</label></td>
+                    <td><select name="coutry" id="country">
+                        <option selected value="sle">-choice-</option>
+                        <option  value="India">INDIA</option>
+                        <option value="uk">UK</option>
+                        <option value="usa">USA</option>
+                        <option value="uae">UAE</option>
+                    </select></td></tr>
+                    <tr>
+                        <td> <label> Address:</label></td>
+                        <td><textarea name="dis" id="dis" cols="20" rows="5" placeholder="enter your address"></textarea></td></tr>
+
+                    <tr><td><br>&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;<b><button name="b1" type="submit">SUBMIT</button></b></td>
+                    <td><br><b><button style="background-color: crimson;" name="b2" type="reset">RESET</button></b></td></tr>
+                </table>
+                </form>
+        </div>
+    </body>
+</html>

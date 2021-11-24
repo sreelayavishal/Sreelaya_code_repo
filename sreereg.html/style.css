@@ -1,0 +1,37 @@
+body{
+    background:url("bgimg..jpg");
+    background-size: cover;
+   
+}
+
+label{
+    color: rgb(173, 236, 200);
+}
+h1{
+    text-align: center;
+    padding:7px;
+}
+table{
+    
+    width: 900px;
+    background-color: rgb(0,0,0,0.5);
+    margin:100px auto 0px auto;
+    height: -100px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+input{
+    background-color: rgb(114, 204, 240);
+    
+}
+::placeholder{
+    color: rgb(39, 10, 1);
+    
+}
+textarea{
+    background-color: rgb(114, 204, 240);
+}
+select{
+    background-color: rgb(114, 204, 240);
+}
